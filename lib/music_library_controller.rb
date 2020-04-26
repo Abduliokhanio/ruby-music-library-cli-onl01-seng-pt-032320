@@ -23,6 +23,12 @@ class MusicLibraryController
 
       when input = 'list artists'
           list_artists
+      when input = 'list songs'
+          list_songs
+      when input = 'list genre'
+          list_genres
+      else
+        call
       end
 
     end
