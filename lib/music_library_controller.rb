@@ -21,8 +21,8 @@ class MusicLibraryController
     #user input
       input = gets.strip
 
-      if input == 'list artists'
-        list_artists
+      if input == 'list songs'
+        list_songs
       end
 
     end
